@@ -17,8 +17,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Team](#team)
-- [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -297,53 +295,6 @@ Smart-Hire/
 ├── README.md
 └── LICENSE
 ```
-
----
-
-## 👥 Team
-
-This project is developed by a team of three students from the **University of Gujrat**:
-
-| Name | Registration # | Role |
-|------|---------------|------|
-| **Adnan Asad** | 22021519-071 | Admin & Employee Backend, Database, Testing & Deployment |
-| **Shiraz Nadeem** | 22021519-115 | HR Backend, Database, AI Modules & API Integration |
-| **Abdul Rehman** | 22021519-102 | Frontend Development, UI/UX Design, Dashboards |
-
-**Supervisor**: Mr. Zafar Mehmood Khatak  
-**Department**: Computer Science  
-**Institution**: University of Gujrat, Punjab, Pakistan
-
----
-
-## 🗓️ Roadmap
-
-### Week 1-2: System Design & Setup ✅
-- Architecture design
-- UI/UX mockups
-- Development environment setup
-
-### Week 3-4: Core Recruitment System 🔄
-- Authentication system
-- Job posting module
-- AI question generation
-
-### Week 5-6: AI Voice Interview & HRMS 📅
-- Voice-based interview implementation
-- Attendance tracking
-- Payroll management
-
-### Week 7-8: SaaS Billing & Testing 📅
-- Payment integration
-- Admin control panel
-- System testing and optimization
-
-### Week 9-10: Deployment & Final Review 📅
-- Cloud hosting and deployment
-- Documentation finalization
-- Final submission
-
----
 
 ## 🤝 Contributing
 
