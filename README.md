@@ -2,221 +2,196 @@
 
 **An AI-Powered Recruitment and Workforce Management System**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![MERN Stack](https://img.shields.io/badge/Stack-MERN-green.svg)](https://www.mongodb.com/mern-stack)
 [![AI Powered](https://img.shields.io/badge/AI-Powered-blue.svg)](https://openai.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
-## 📋 Table of Contents
+## 📖 Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Architecture](#architecture)
+- [About the Project](#about-the-project)
+- [Problem Statement](#problem-statement)
+- [Solution](#solution)
+- [Key Features](#key-features)
 - [Tech Stack](#tech-stack)
-- [Installation](#installation)
+- [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
+- [Team](#team)
 - [License](#license)
 
 ---
 
-## 🎯 Overview
+## 🎯 About the Project
 
-**Smart Hire** is an intelligent web-based platform that revolutionizes recruitment and human resource management by integrating AI-driven automation into one unified system. The platform automates job description creation, AI-powered question generation, and conducts virtual voice-based interviews while providing comprehensive HR management capabilities.
+**Smart Hire** is an intelligent web-based platform that transforms how organizations handle recruitment and employee management. By leveraging artificial intelligence and modern web technologies, Smart Hire automates the entire hiring process—from job posting to candidate evaluation—while providing comprehensive HR management tools for day-to-day operations.
 
-### 🎓 Academic Context
-
-This project is developed as a **Final Year Project** at the **Department of Computer Science, University of Gujrat, Pakistan** under the supervision of **Mr. Zafar Mehmood Khatak**.
-
-### 🌟 Key Highlights
-
-- 🤖 **AI-Powered Interviews**: Automated voice-based interviews with intelligent question generation
-- 📊 **Complete HRMS**: Attendance, payroll, performance tracking, and task management
-- 🎯 **Resume Matching**: AI-driven candidate-to-job matching
-- 💼 **SaaS Model**: Multi-tier billing and subscription management
-- 🔐 **Role-Based Access**: Separate dashboards for Admin, HR, and Employees
-- ☁️ **Cloud Integration**: Scalable architecture with modern cloud services
+The system combines **AI-driven recruitment** with a complete **Human Resource Management System (HRMS)**, offering a unified solution for modern enterprises looking to streamline their workforce operations.
 
 ---
 
-## ✨ Features
+## ❓ Problem Statement
 
-### 🎤 AI-Powered Recruitment
+Organizations today face several critical challenges in recruitment and HR management:
 
-- **Automated Job Description Creation**: Generate comprehensive job descriptions using AI
-- **AI Question Generation**: Context-aware interview questions based on job requirements
-- **Voice-Based Interviews**: Real-time voice interaction with AI interviewer
-- **Speech-to-Text Conversion**: Accurate transcription of candidate responses
-- **AI Interview Summaries**: Automated evaluation and summary generation
-- **Resume Parsing**: Extract and analyze candidate information from resumes
+### Recruitment Challenges
+- **Time-Consuming Hiring Process**: Manual screening of hundreds of resumes and conducting interviews takes weeks
+- **Inconsistent Evaluation**: Different interviewers may assess candidates differently, leading to biased decisions
+- **Resource Intensive**: HR teams spend countless hours on repetitive tasks like scheduling, question preparation, and candidate communication
+- **Limited Scalability**: Traditional methods can't efficiently handle high-volume hiring
 
-### 👥 HR Management System
+### HR Management Challenges
+- **Fragmented Systems**: Organizations use multiple disconnected tools for attendance, payroll, performance tracking, and document management
+- **Manual Data Entry**: Prone to errors and time wastage
+- **Lack of Real-Time Insights**: Difficulty in tracking employee performance and organizational metrics
+- **Poor Employee Experience**: Employees struggle with accessing their information, tasks, and policies
 
-- **Employee Management**: Complete employee lifecycle management
-- **Attendance Tracking**: Automated attendance monitoring and reporting
-- **Payroll Management**: Salary calculation and payment processing
-- **Performance Tracking**: Monitor and evaluate employee performance
-- **Task Assignment**: Assign and track tasks across teams
-- **Document Storage**: Centralized document management system
-- **Policy Management**: Company policies and guidelines repository
+---
 
-### 🎛️ Role-Based Dashboards
+## 💡 Solution
 
-#### Admin Dashboard
-- Organization-wide oversight and control
-- User and role management
-- System configuration and settings
-- Analytics and reporting
+Smart Hire addresses these challenges by providing an **all-in-one AI-powered platform** that:
 
-#### HR Dashboard
-- Recruitment pipeline management
-- Interview scheduling and recording
-- Candidate evaluation and selection
-- Employee onboarding and management
+### For Recruitment
+✅ **Automates Interview Process**: AI generates job-specific questions and conducts voice-based interviews  
+✅ **Eliminates Bias**: Standardized AI evaluation ensures fair assessment of all candidates  
+✅ **Saves Time**: Reduces hiring time from weeks to days with automated screening and evaluation  
+✅ **Scales Effortlessly**: Handle hundreds of candidates simultaneously with AI interviewers  
+✅ **Provides Insights**: AI-generated summaries help HR make data-driven hiring decisions
 
-#### Employee Dashboard
-- Personal information and documents
-- Task tracking and completion
-- Salary and attendance records
-- Policy and announcement access
+### For HR Management
+✅ **Unified Platform**: Single system for attendance, payroll, performance, tasks, and documents  
+✅ **Automation**: Automatic attendance tracking, salary calculations, and report generation  
+✅ **Real-Time Analytics**: Live dashboards for monitoring organizational metrics  
+✅ **Employee Self-Service**: Employees can access their information, submit documents, and track tasks independently  
+✅ **SaaS Model**: Flexible subscription plans suitable for businesses of all sizes
+
+---
+
+## ✨ Key Features
+
+### 🤖 AI-Powered Recruitment
+
+| Feature | Description |
+|---------|-------------|
+| **Smart Job Descriptions** | AI generates comprehensive job descriptions based on role requirements |
+| **Intelligent Question Generation** | Context-aware interview questions tailored to each position |
+| **Voice-Based AI Interviews** | Real-time conversational interviews with speech recognition |
+| **Automated Evaluation** | AI analyzes responses and generates candidate summaries |
+| **Resume Matching** | AI-powered matching between candidate profiles and job requirements |
+| **Interview Recording** | Save and review interview sessions for compliance and analysis |
+
+### 👥 Complete HRMS
+
+| Feature | Description |
+|---------|-------------|
+| **Employee Management** | Complete lifecycle management from onboarding to exit |
+| **Attendance Tracking** | Automated check-in/check-out with real-time monitoring |
+| **Payroll Management** | Automatic salary calculation, deductions, and payment processing |
+| **Performance Tracking** | Monitor KPIs, goals, and employee performance metrics |
+| **Task Management** | Assign, track, and manage tasks across teams |
+| **Document Storage** | Centralized repository for employee documents and files |
+| **Policy Management** | Publish and manage company policies, announcements, and guidelines |
+
+### 🎛️ Role-Based Access
+
+- **Admin Dashboard**: Full system control, user management, analytics, and configuration
+- **HR Dashboard**: Recruitment pipeline, employee management, and HR operations
+- **Employee Dashboard**: Personal information, tasks, attendance, salary, and documents
 
 ### 💳 SaaS Features
 
-- Multi-tier subscription plans
+- Multi-tier subscription plans (Basic, Professional, Enterprise)
 - Secure payment processing via Stripe
 - Usage analytics and billing management
 - Organization-level account management
 
 ---
 
-## 🏗️ Architecture
-
-Smart Hire follows a **three-tier MERN architecture** integrated with AI and voice processing technologies:
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     Presentation Layer                       │
-│              (React.js - Admin/HR/Employee UI)              │
-└────────────────────────┬────────────────────────────────────┘
-                         │
-┌────────────────────────▼────────────────────────────────────┐
-│                    Application Layer                         │
-│         (Node.js + Express.js - Business Logic)             │
-│                                                              │
-│  ┌──────────────────────────────────────────────────────┐  │
-│  │           AI & Voice Processing Layer                │  │
-│  │  • Groq/OpenAI - Question Generation & Summaries    │  │
-│  │  • Whisper/AssemblyAI - Speech-to-Text              │  │
-│  │  • TTS Engine - Text-to-Speech                      │  │
-│  │  • Socket.io/Mediasoup - Real-time Voice Streaming  │  │
-│  └──────────────────────────────────────────────────────┘  │
-└────────────────────────┬────────────────────────────────────┘
-                         │
-┌────────────────────────▼────────────────────────────────────┐
-│                       Data Layer                             │
-│        (MongoDB Atlas - Users, Interviews, HR Data)         │
-└─────────────────────────────────────────────────────────────┘
-```
-
----
-
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **React.js** - Component-based SPA with responsive UI
+- **React.js** - Modern, component-based UI framework
 - **React Router** - Client-side routing
-- **Axios** - HTTP client for API requests
-- **Material-UI / Tailwind CSS** - UI component library
+- **Axios** - HTTP client for API communication
+- **Material-UI / Tailwind CSS** - Responsive UI components
 
 ### Backend
-- **Node.js** - JavaScript runtime environment
-- **Express.js** - Web application framework
+- **Node.js** - JavaScript runtime for server-side logic
+- **Express.js** - Fast, minimalist web framework
 - **Socket.io** - Real-time bidirectional communication
 - **Mediasoup** - WebRTC media server for voice streaming
 
 ### Database
 - **MongoDB Atlas** - Cloud-hosted NoSQL database
-- **Mongoose** - MongoDB object modeling
+- **Mongoose** - Elegant MongoDB object modeling
 
 ### AI & Voice Processing
-- **Groq / OpenAI** - AI question generation and interview analysis
+- **Groq / OpenAI API** - AI question generation and interview analysis
 - **Whisper / AssemblyAI** - Speech-to-text conversion
 - **eSpeakNG / TTS API** - Text-to-speech synthesis
-- **Tesseract.js** - OCR for document parsing
+- **Tesseract.js** - OCR for resume parsing
 
-### Authentication & Security
-- **JWT (JSON Web Tokens)** - Secure authentication
+### Security & Authentication
+- **JWT** - Secure token-based authentication
 - **Bcrypt** - Password hashing and encryption
 
-### Payment & Billing
-- **Stripe API** - Payment processing and subscription management
+### Payment Integration
+- **Stripe API** - Subscription and payment processing
 
 ### Additional Tools
 - **Multer** - File upload handling
 - **Nodemailer** - Email notifications
-- **Dotenv** - Environment variable management
+- **Dotenv** - Environment configuration
 
 ---
 
-## 📦 Installation
+## 🚀 Getting Started
 
 ### Prerequisites
 
-- **Node.js** (v18 or higher)
-- **npm** or **yarn**
-- **MongoDB Atlas** account
-- **Git**
+Before you begin, ensure you have the following installed:
 
-### Clone the Repository
+- **Node.js** (v18 or higher) - [Download](https://nodejs.org/)
+- **npm** or **yarn** - Package manager
+- **MongoDB Atlas** account - [Sign up](https://www.mongodb.com/cloud/atlas)
+- **Git** - Version control
 
-```bash
-git clone https://github.com/Adnan-Asad1/Smart-Hire-.git
-cd Smart-Hire-
-```
+### Installation
 
-### Backend Setup
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Adnan-Asad1/Smart-Hire-.git
+   cd Smart-Hire-
+   ```
 
-```bash
-# Navigate to backend directory
-cd backend
+2. **Backend Setup**
+   ```bash
+   cd backend
+   npm install
+   
+   # Create environment file
+   cp .env.example .env
+   # Edit .env with your configuration
+   
+   npm start
+   ```
 
-# Install dependencies
-npm install
+3. **Frontend Setup**
+   ```bash
+   cd frontend
+   npm install
+   
+   # Create environment file
+   cp .env.example .env
+   # Edit .env with your API endpoint
+   
+   npm start
+   ```
 
-# Create .env file
-cp .env.example .env
-
-# Configure environment variables
-# Edit .env with your MongoDB URI, API keys, etc.
-
-# Start the backend server
-npm start
-```
-
-### Frontend Setup
-
-```bash
-# Navigate to frontend directory
-cd frontend
-
-# Install dependencies
-npm install
-
-# Create .env file
-cp .env.example .env
-
-# Configure environment variables
-# Edit .env with your API endpoint
-
-# Start the development server
-npm start
-```
-
-### Environment Variables
-
-Create a `.env` file in both `backend` and `frontend` directories:
+### Environment Configuration
 
 #### Backend `.env`
 ```env
@@ -239,29 +214,53 @@ REACT_APP_STRIPE_PUBLIC_KEY=your_stripe_public_key
 
 ---
 
-## 🚀 Usage
+## 💻 Usage
 
 ### For HR Professionals
 
-1. **Create Job Postings**: Define job requirements and descriptions
-2. **Generate Interview Questions**: Use AI to create relevant questions
-3. **Schedule Interviews**: Set up voice-based AI interviews
-4. **Review Candidates**: Access AI-generated summaries and evaluations
-5. **Manage Employees**: Handle onboarding, attendance, and payroll
+1. **Post a Job**
+   - Create job posting with requirements
+   - AI generates job description automatically
+   - Set interview parameters
+
+2. **Conduct AI Interviews**
+   - AI generates relevant interview questions
+   - Candidates complete voice-based interviews
+   - System records and transcribes responses
+
+3. **Review Candidates**
+   - Access AI-generated candidate summaries
+   - Compare evaluation scores
+   - Make data-driven hiring decisions
+
+4. **Manage Employees**
+   - Onboard new hires
+   - Track attendance and performance
+   - Process payroll and manage documents
 
 ### For Administrators
 
-1. **Manage Organization**: Configure system settings and policies
-2. **User Management**: Create and manage user roles
-3. **Monitor Analytics**: Track recruitment and HR metrics
-4. **Billing Management**: Handle subscriptions and payments
+1. **System Configuration**
+   - Manage user roles and permissions
+   - Configure organizational settings
+   - Set up subscription plans
+
+2. **Analytics & Reporting**
+   - Monitor recruitment metrics
+   - Track HR operations
+   - Generate custom reports
 
 ### For Employees
 
-1. **View Dashboard**: Access personal information and tasks
-2. **Track Attendance**: Monitor attendance records
-3. **Submit Documents**: Upload required documentation
-4. **View Salary**: Access payroll information
+1. **Personal Dashboard**
+   - View personal information
+   - Track assigned tasks
+   - Monitor attendance records
+
+2. **Self-Service**
+   - Submit documents
+   - View salary slips
+   - Access company policies
 
 ---
 
@@ -270,24 +269,24 @@ REACT_APP_STRIPE_PUBLIC_KEY=your_stripe_public_key
 ```
 Smart-Hire/
 ├── backend/
-│   ├── config/          # Configuration files
-│   ├── controllers/     # Route controllers
-│   ├── models/          # Database models
-│   ├── routes/          # API routes
-│   ├── middleware/      # Custom middleware
-│   ├── utils/           # Utility functions
+│   ├── config/          # Database and API configurations
+│   ├── controllers/     # Request handlers
+│   ├── models/          # Database schemas
+│   ├── routes/          # API endpoints
+│   ├── middleware/      # Authentication, validation
 │   ├── services/        # AI and external services
-│   └── server.js        # Entry point
+│   ├── utils/           # Helper functions
+│   └── server.js        # Application entry point
 │
 ├── frontend/
-│   ├── public/          # Static files
+│   ├── public/          # Static assets
 │   ├── src/
-│   │   ├── components/  # React components
+│   │   ├── components/  # Reusable UI components
 │   │   ├── pages/       # Page components
-│   │   ├── services/    # API services
-│   │   ├── context/     # React context
+│   │   ├── services/    # API integration
+│   │   ├── context/     # State management
 │   │   ├── utils/       # Utility functions
-│   │   └── App.js       # Main app component
+│   │   └── App.js       # Root component
 │   └── package.json
 │
 ├── docs/                # Documentation
@@ -296,62 +295,55 @@ Smart-Hire/
 └── LICENSE
 ```
 
+---
+
 ## 🤝 Contributing
 
-We welcome contributions to improve Smart Hire! Here's how you can help:
+Contributions are welcome! Here's how you can help:
 
-1. **Fork the repository**
-2. **Create a feature branch** (`git checkout -b feature/AmazingFeature`)
-3. **Commit your changes** (`git commit -m 'Add some AmazingFeature'`)
-4. **Push to the branch** (`git push origin feature/AmazingFeature`)
-5. **Open a Pull Request**
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### Contribution Guidelines
+Please ensure your code follows the existing style and includes appropriate tests.
 
-- Follow the existing code style
-- Write clear commit messages
-- Add tests for new features
-- Update documentation as needed
+---
+
+## 👥 Team
+
+Developed by students from the **University of Gujrat**:
+
+| Name | Role |
+|------|------|
+| **Adnan Asad** | Backend Development (Admin & Employee), Database, Testing & Deployment |
+| **Shiraz Nadeem** | Backend Development (HR), AI Integration, API Development |
+| **Abdul Rehman** | Frontend Development, UI/UX Design, Dashboard Implementation |
+
+**Supervisor**: Mr. Zafar Mehmood Khatak  
+**Institution**: Department of Computer Science, University of Gujrat, Pakistan
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## 📞 Contact
 
-For questions, suggestions, or collaboration opportunities:
+**Adnan Asad** - [GitHub Profile](https://github.com/Adnan-Asad1)
 
-- **Adnan Asad** - [GitHub](https://github.com/Adnan-Asad1)
-- **Project Link**: [https://github.com/Adnan-Asad1/Smart-Hire-](https://github.com/Adnan-Asad1/Smart-Hire-.git)
-
----
-
-## 🙏 Acknowledgments
-
-- **University of Gujrat** - For providing the platform and resources
-- **Mr. Zafar Mehmood Khatak** - For supervision and guidance
-- **Department of Computer Science** - For academic support
-- All open-source libraries and tools used in this project
-
----
-
-## 📊 Project Statistics
-
-- **Estimated Development Time**: 10 weeks
-- **Estimated Cost**: PKR 21,000
-- **Tech Stack**: MERN + AI
-- **Target Audience**: HR departments, recruitment firms, enterprises
+**Project Repository**: [https://github.com/Adnan-Asad1/Smart-Hire-](https://github.com/Adnan-Asad1/Smart-Hire-.git)
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by the Smart Hire Team**
+**⭐ Star this repository if you find it helpful!**
 
-⭐ Star this repository if you find it helpful!
+Made with ❤️ by the Smart Hire Team
 
 </div>
